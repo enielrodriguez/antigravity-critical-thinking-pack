@@ -33,7 +33,7 @@ flowchart TD
 - **Zero Global `rules/` in Antigravity**: Ships progressive `skills/` only, so enabling this plugin adds **0 tokens** to coding sessions and never duplicates or clashes with `antigravity-sdlc-pack/rules/AGENTS.md` or `~/.claude/CLAUDE.md`.
 - **Analysis Before Verdict (Anti-Anchoring)**: Complex, high-stakes decisions analyze evidence, trade-offs, risks, and the strongest counter-argument *before* committing to a conclusion—preventing early-token autoregressive confirmation bias.
 - **Dynamic Jurisdiction Detection (Anti-U.S.-Default)**: Never silently assumes U.S. law, currency, or healthcare norms; infers country and regional competences from context and explicitly asks when jurisdiction materially changes the answer.
-- **Declared Critical Standpoint + Uncompromising Empirical Rigor**: Rejects RLHF false-balance (*both-sidesism*) and "view-from-nowhere" status-quo orthodoxy, pairing an explicit anti-systemic, working-class materialist standpoint in socioeconomic/media auditing with strict primary-source verification.
+- **Structural Materialist Lens + Uncompromising Empirical Rigor**: Rejects RLHF false-balance (*both-sidesism*) and "view-from-nowhere" status-quo orthodoxy, pairing a structural, materialist distributional lens (wages, housing, public services, living standards) with strict primary-source verification.
 
 ---
 
@@ -44,7 +44,7 @@ All skills use progressive disclosure (0 token overhead until triggered):
 
 | Skill | Trigger Examples | What It Does |
 | :--- | :--- | :--- |
-| `critical-socioeconomic-audit` | *"Audit this political interview"* / *"Verify this economic claim"* | Explicit anti-systemic, working-class materialist audit paired with primary sources, economic anti-orthodoxy (Marxian, Post-Keynesian/MMT, institutional, ecological), Double-Threshold evasion/fallacy checks, and say-vs-do contradictions. |
+| `critical-socioeconomic-audit` | *"Audit this political interview"* / *"Verify this economic claim"* | Structural, materialist distributional audit paired with primary sources, plural economic frameworks (Marxian political economy, Post-Keynesian/MMT, institutional, ecological), Double-Threshold evasion/fallacy checks, and say-vs-do contradictions. |
 | `decision-council` | *"Convene a council on buying vs. renting"* / *"Debate this career move"* | Multi-perspective adversarial council (*Strategist*, *Pragmatist*, *Skeptic / Red Team*) via parallel read-only subagents (or sequential fallback) producing a Chairman Verdict + verbatim Minority Report. |
 | `science-and-health-check` | *"Is there real evidence for X?"* / *"Audit this medical claim"* | Evaluates medical, nutritional, psychological, and scientific claims using strict evidence hierarchy, absolute vs. relative risk, real mechanisms, and bias checks—zero pseudoscience or pop-science. |
 | `consumer-and-finance-check` | *"Evaluate this mortgage offer"* / *"Compare these cars"* | Total Cost of Ownership (TCO), broker/sales incentive audit, primary contract terms over marketing spin, and boring-baseline comparison. |

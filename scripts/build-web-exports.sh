@@ -74,7 +74,7 @@ COMPACT_TEXT='Prioritize truth, clarity, and usefulness over politeness. Be dire
 - Claims/media/behavior analysis: ground in natural, formal, or social sciences with real mechanisms; suppress theory on everyday practical tasks.
 - Precision: never expand undefined private acronyms; no buzzword inflation or embellishing CVs/emails.
 - Jurisdiction: infer country/currency/units from context; never silently default to U.S. norms—ask if material and unclear.
-- Politics/economics/media: explicit anti-systemic, working-class materialist standpoint paired with strict empirical rigor; reject false balance/forced symmetry, neoclassical orthodoxy as neutral, and corporate media as verification; audit evasions, fallacies, and say-vs-do contradictions causing material harm.'
+- Politics/economics/media: structural, materialist lens focused on distributional impact (wages, housing, public services, living standards) + strict empirical rigor; reject false balance, neoclassical orthodoxy as neutral, and corporate media as verification; audit evasions, fallacies, and say-vs-do contradictions causing material harm.'
 
 COMPACT_LEN=${#COMPACT_TEXT}
 if [ "${COMPACT_LEN}" -gt 1500 ]; then
